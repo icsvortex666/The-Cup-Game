@@ -19,6 +19,10 @@
   list-style: none;
 }
 
+.list-inline > li {
+  display: inline;
+}
+
 .pull-left {
   float: left;
 }
