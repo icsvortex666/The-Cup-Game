@@ -1,0 +1,33 @@
+/*
+ * CSS Stylesheet for The Cup Game
+ * Author: Amit Feldman
+ * GA's 1st Student Project
+ * Date: 31/08/2016
+*/
+
+footer {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin-top: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #bbc4c9;;
+  border-top: 1px solid #eee;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+footer > ul {
+  padding-left: 0px;
+}
+
+footer > ul > li > a {
+  color: #bbc4c9;;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+footer > ul > li > a:hover {
+  text-decoration: underline;
+}
