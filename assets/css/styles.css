@@ -56,13 +56,9 @@ h1 {
   padding: 5px;
 }
 
-.title-score {
+.player-score {
   padding-top: 15px;
   padding-right: 15px;
-}
-
-.title-player {
-
 }
 
 .btn-start {
@@ -75,7 +71,7 @@ h1 {
 
 .cup-holder {
   margin: 0 auto;
-  margin-top: 13rem;
+  margin-top: 10rem;
 }
 
 .cup {
