@@ -56,6 +56,15 @@ h1 {
   padding: 5px;
 }
 
+.title-score {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.title-player {
+
+}
+
 .btn-start {
   position: absolute;
   top: 50%;

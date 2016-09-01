@@ -2,9 +2,19 @@
 
 class Game {
   constructor() {
+
+  }
+
+  createCups() {
+
   }
 
   shuffleCups() {
+
+  }
+
+  checkWin() {
+
   }
 
   render() {

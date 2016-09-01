@@ -4,12 +4,14 @@ class GameView {
   constructor() {
   }
 
-  addCups() {
+  createCups() {
     const cupHolder = $('ul.cup-holder');
-    const $cupId = 1;
     const newCupNode = $.parseHTML(`
-      <li id="${$cupId}"><img src="./assets/img/cup.png" class="cup img-responsive"></li>
+      <li>
+        <img src="./assets/img/cup.png" class="cup img-responsive">
+      </li>
     `);
+
     $(newCupNode).prependTo(cupHolder);
   }
 
