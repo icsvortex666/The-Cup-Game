@@ -10,7 +10,6 @@ class App {
     const $newGameView = new GameView();
     $(this).$gameView = $newGameView;
     $newGameView.render();
-    $newGameView.createCups();
     $newGameView.revealCups();
   }
 }
