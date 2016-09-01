@@ -21,6 +21,7 @@ body {
   font-size: 16px;
   font-family: 'brandon-grotesque', sans-serif;
 }
+
 #wrapper {
   min-height: 100%;
   position: relative;
@@ -42,14 +43,41 @@ ul {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .page-header {
-  padding: 15px 0;
+  padding: 10px 0 10px 0;
 }
 
 .title {
   border-bottom: 4px solid #e74c3c;
-  padding: 15px;
+  padding: 5px;
+}
+
+.btn-start {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.cup-holder {
+  margin: 0 auto;
+  margin-top: 13rem;
+}
+
+.cup {
+  zoom: 0.5;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
 }

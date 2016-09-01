@@ -31,37 +31,37 @@
     <link rel="stylesheet" href="./assets/css/styles.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div id="wrapper">
-      <div class="container">
-        <div class="page-header">
-          <h1 class="text-center">
-            <span class="title">The Cup Game</span>
-          </h1>
-        </div>
-        <div class="row text-center">
-          <ul class="list-inline">
-            <li><button type="button" class="btn btn-primary btn-switch btn-lg">Primary</button></li>
-            <li><button type="button" class="btn btn-default btn-switch btn-lg">Default</button></li>
-            <li><button type="button" class="btn btn-danger btn-switch btn-lg">Danger</button></li>
-            <li><button type="button" class="btn btn-warning btn-switch btn-lg">Warning</button></li>
-            <li><button type="button" class="btn btn-success btn-switch btn-lg">Success</button></li>
+    <div id="wrapper" class="animate fadeIn">
+      <header class="container">
+        <h1 class="page-header">
+          <span class="title">The Cup Game</span>
+        </h1>
+      </header>
+      <div class="container text-center">
+        <section class="gameboard">
+          <ul class="list-inline cup-holder">
+            <li><img src="./assets/img/cup.png" class="cup img-responsive"></li>
+            <li><img src="./assets/img/cup.png" class="cup img-responsive"></li>
+            <li><img src="./assets/img/cup.png" class="cup img-responsive"></li>
           </ul>
-        </div>
+        </section>
+        <button type="button" name="button" class="btn btn-primary btn-switch btn-lg btn-start">Press Start</button>
       </div>
       <footer class="container">
-        <ul class="list-inline">
+        <ul class="list-inline pull-left">
           <li>&copy; 2016 Amit Feldman.</li>
         </ul>
         <ul class="list-inline pull-right">
-          <li>Made with <i class="pulse">&hearts;</i> in New York.</li>
+          <li>Made with <i class="fa fa-heart animate pulse loop"></i> in New York.</li>
         </ul>
       </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="./assets/js/game.js" charset="utf-8"></script>
-    <script src="./assets/js/game_view.js" charset="utf-8"></script>
+    <script src="./assets/js/gameView.js" charset="utf-8"></script>
     <script src="./assets/js/app.js" charset="utf-8"></script>
     <script src="./assets/js/index.js" charset="utf-8"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/752c34e007.js"></script>
     <script src="https://use.typekit.net/koe8abo.js"></script>
     <script>try{Typekit.load({async:true});}catch(e){}</script>
   </body>

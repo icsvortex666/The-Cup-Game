@@ -7,16 +7,11 @@
 
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 7.5%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
+  position: relative;
+  padding: 25px 0;
   font-size: 12px;
   line-height: 1.5;
-  color: #bbc4c9;;
-  border-top: 1px solid #eee;
+  color: #bbc4c9;
   font-weight: 800;
   text-transform: uppercase;
   z-index: -1000;
@@ -27,7 +22,7 @@ footer > ul {
 }
 
 footer > ul > li > a {
-  color: #bbc4c9;;
+  color: #ecf0f1;
   padding: 4px 8px;
   text-decoration: none;
 }

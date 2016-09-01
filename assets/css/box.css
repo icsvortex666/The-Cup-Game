@@ -11,6 +11,20 @@
 }
 
 .row {
-  width: 100%;
+  width: inherit;
+  margin: 0 auto;
   padding: 15px;
+}
+
+.gameboard {
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 600px;
+  width: 100%;
+  border-radius: .35em;
+  border: 2px solid #bbc4c9;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #bbc4c9;
+  border-top: 25px solid #bbc4c9;
 }
