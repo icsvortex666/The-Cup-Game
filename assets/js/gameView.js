@@ -4,6 +4,15 @@ class GameView {
   constructor() {
   }
 
+  addCups() {
+    const cupHolder = $('ul.cup-holder');
+    const $cupId = 1;
+    const newCupNode = $.parseHTML(`
+      <li id="${$cupId}"><img src="./assets/img/cup.png" class="cup img-responsive"></li>
+    `);
+    $(newCupNode).prependTo(cupHolder);
+  }
+
   revealCups() {
     $('img.cup').fadeIn('slow').show();
   }
@@ -11,7 +20,6 @@ class GameView {
   render() {
     const $newGame = new Game();
     $newGame.render();
-    console.log('GameView works!');
   }
 }
 

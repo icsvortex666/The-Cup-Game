@@ -2,13 +2,11 @@
 
 class Game {
   constructor() {
-
   }
 
-  shuffle() {
+  shuffleCups() {
   }
 
   render() {
-    console.log('Game works!');
   }
 }
