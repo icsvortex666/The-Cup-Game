@@ -10,7 +10,6 @@ class GameView {
   }
 
   render() {
-    this.newGame.createCups();
     this.newGame.render();
   }
 }

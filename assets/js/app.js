@@ -2,14 +2,11 @@
 
 class App {
   constructor() {
-    this.game;
-    this.gameView;
+    this.newGameView = new GameView();
   }
 
   render() {
-    const newGameView = new GameView();
-    this.gameView = newGameView;
-    newGameView.render();
-    newGameView.revealCups();
+    this.newGameView.render();
+    this.newGameView.revealCups();
   }
 }
