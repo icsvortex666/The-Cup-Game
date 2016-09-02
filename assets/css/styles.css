@@ -76,6 +76,13 @@ h1 {
 
 .cup {
   zoom: 0.5;
+  opacity: 1;
+}
+
+.cup:hover {
+  opacity: 0.9;
+  transform: scale(1.25);
+  transition: transform 100ms ease-out;
 }
 
 .img-responsive {
