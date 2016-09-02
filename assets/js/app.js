@@ -7,6 +7,5 @@ class App {
 
   render() {
     this.newGameView.render();
-    this.newGameView.revealCups();
   }
 }
