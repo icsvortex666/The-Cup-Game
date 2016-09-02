@@ -56,9 +56,10 @@ h1 {
   padding: 5px;
 }
 
-.player-score {
+.player {
   padding-top: 15px;
   padding-right: 15px;
+  color: #2c3e50;
 }
 
 .btn-start {

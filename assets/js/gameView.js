@@ -2,6 +2,7 @@
 
 class GameView {
   constructor() {
+    this.newGame = new Game();
   }
 
   revealCups() {
@@ -9,9 +10,8 @@ class GameView {
   }
 
   render() {
-    const $newGame = new Game();
-    $newGame.createCups();
-    $newGame.render();
+    this.newGame.createCups();
+    this.newGame.render();
   }
 }
 
