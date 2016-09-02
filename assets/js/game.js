@@ -2,22 +2,23 @@
 
 class Game {
   constructor() {
-    this.cupsArray = [0, 1];
-    this.cupHolder = $('ul.cup-holder');
-    this.cupNode = `<li>
-                      <a href="#">
-                        <img src="./assets/img/cup.png" class="cup img-responsive">
-                      </a>
-                    </li>`;
+
   }
 
-  createCups() {
-    $.each(this.cupsArray, (idx, val) => {
-      $(this.cupNode).prependTo(this.cupHolder);
-    });
+  makeCups() {
+    this.cupsArray = [0, 1, 2];
+    const $gameBoard = $('.gameboard');
+    const $cupHolder = $('<ul>');
+    $($cupHolder).attr('class', 'cup-holder list-inline');
+    $($gameBoard).append($cupHolder);
+    for (let id = 0; id < this.cupsArray.length; id++) {
+      const $cupItem = $('<li>');
+      const $cupImg = '<img src="./assets/img/cup.png">';
+      $($cupHolder).append($($cupItem).attr('id', `${id}`).append($($cupImg).attr('class', 'cup img-responsive')));
+    }
   }
 
   render() {
-    this.createCups();
+    this.makeCups();
   }
 }
