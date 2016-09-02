@@ -21,6 +21,10 @@ footer > ul {
   padding-left: 0px;
 }
 
+footer > ul.list-inline > li {
+  padding: 0px;
+}
+
 footer > ul > li > a {
   color: #ecf0f1;
   padding: 4px 8px;

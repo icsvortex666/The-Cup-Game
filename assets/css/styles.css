@@ -70,6 +70,11 @@ h1 {
   margin-left: -100px;
 }
 
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
 .cup-holder {
   margin: 0 auto;
   margin-top: 10rem;
@@ -85,11 +90,6 @@ h1 {
   opacity: 0.9;
   transform: scale(1.25);
   transition: transform 100ms ease-out;
-}
-
-.img-responsive {
-  width: 100%;
-  height: auto;
 }
 
 .hidden {

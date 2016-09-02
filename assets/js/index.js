@@ -1,9 +1,8 @@
 /* eslint-env jquery */
 
-function startGame() {
+$('button').on('click', function(e) {
+  e.preventDefault();
   const newApp = new App();
   newApp.render();
   this.remove();
-}
-
-$('button').on('click', startGame);
+});

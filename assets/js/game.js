@@ -2,11 +2,10 @@
 
 class Game {
   constructor() {
-
+    this.cupsArray = [0, 1, 0];
   }
 
   makeCups() {
-    this.cupsArray = [0, 1, 2];
     const $gameBoard = $('.gameboard');
     const $cupHolder = $('<ul>');
     $($cupHolder).attr('class', 'cup-holder list-inline');
@@ -16,6 +15,10 @@ class Game {
       const $cupImg = '<img src="./assets/img/cup.png">';
       $($cupHolder).append($($cupItem).attr('id', `${id}`).append($($cupImg).attr('class', 'cup img-responsive')));
     }
+  }
+
+  shuffleCups() {
+
   }
 
   render() {
