@@ -70,6 +70,14 @@ h1 {
   margin-left: -100px;
 }
 
+.btn-shuffle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 200px;
+  margin-left: -100px;
+}
+
 .img-responsive {
   width: 100%;
   height: auto;
@@ -81,8 +89,20 @@ h1 {
 }
 
 .cup {
-  zoom: 0.5;
+  width: 5rem;
   opacity: 1;
+  transition: transform 100ms ease-out;
+}
+
+.ball {
+  zoom: 0.5;
+  display: block;
+  margin: 0 auto;
+}
+
+.hasBall {
+  top: -20px;
+  position: relative;
   transition: transform 100ms ease-out;
 }
 
