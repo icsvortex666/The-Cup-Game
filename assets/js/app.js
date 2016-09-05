@@ -2,10 +2,10 @@
 
 class App {
   constructor() {
-    this.newGameView = new GameView();
+    this.newGame = new Game();
   }
 
   render() {
-    this.newGameView.render();
+    this.newGame.render();
   }
 }
