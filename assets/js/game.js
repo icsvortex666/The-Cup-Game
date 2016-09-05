@@ -48,6 +48,10 @@ class Game {
     console.log(`|${this.cupsArray}|`);
   }
 
+  animateShuffle() {
+
+  }
+
   revealCup(cup) {
     $('.hasBall').removeClass('hasBall');
     $('.ball').remove();
@@ -74,6 +78,7 @@ class Game {
       }
     } else {
       this.score = 0;
+      alert('Oh Snap! You didn\'t find the ball!');
       $('#score').html(this.score);
     }
   }

@@ -75,3 +75,8 @@
   padding: 1.2em 2.8em;
   font-size: .95em;
 }
+
+.disabled {
+  opacity: 0.8;
+  pointer-events: none;
+}
