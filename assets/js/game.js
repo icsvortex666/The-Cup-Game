@@ -48,10 +48,6 @@ class Game {
     console.log(`|${this.cupsArray}|`);
   }
 
-  animateShuffle() {
-
-  }
-
   revealCup(cup) {
     $('.hasBall').removeClass('hasBall');
     $('.ball').remove();
@@ -61,9 +57,9 @@ class Game {
       $(cup).parent().append($(this.ballImg));
       this.score += 10;
       $('#score').html(this.score);
-      // ADD NEW CUP
-      alert('Congratulations! You found the ball in the cup.')
-      if (window.confirm('Would you like to add new cup?')) {
+      // ADD ADDITIONAL CUP
+      alert('Congratulations! You found the ball in the cup.');
+      if (confirm('Would you like to add new cup?')) {
         this.cupLi = $('<li>');
         $(this.cupLi).attr('id', `${this.cupsArray.length}`);
         this.cupImg = $('<img>');

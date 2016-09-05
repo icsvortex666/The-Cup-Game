@@ -15,6 +15,7 @@ $('.btn-shuffle').on('click', function(e) {
   e.preventDefault();
   newApp.newGame.shuffleCups();
   $('.btn-shuffle').addClass('disabled');
+  $('li img').effect('shake', { times: 8, distance: 50 }, 800);
   $('.cup').bind('click', function(e) {
     e.preventDefault();
     newApp.newGame.revealCup(this);
