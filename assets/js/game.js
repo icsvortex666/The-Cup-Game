@@ -74,7 +74,7 @@ class Game {
       }
     } else {
       this.score = 0;
-      alert('Oh Snap! You didn\'t find the ball!');
+      alert('Oh Snap! You didn\'t find the ball!\nYou lost all your points!');
       $('#score').html(this.score);
     }
   }
