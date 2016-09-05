@@ -1,5 +1,9 @@
 # [*The Cup Game*](http://icsvortex666.github.io/The-Cup-Game/)
 
+<p align="center">
+  <img src="icsvortex666.github.io/The-Cup-Game/assets/img/screenshot.png"/>
+</p>
+
 Game coded by [*Amit Feldman*](https://www.twitter.com/amityofbodom) on August 30th, 2016.
 
 ## Game Instructions
@@ -24,8 +28,9 @@ Each time the ball has been found, the player is awarded with 10 points. The pla
 TODO: Write approach
 ```
 
-## Technologies used
-
-- **jQuery**: For faster MVP development.
-- **jQuery UI**: For cups animation. I decided to go with this library, because I couldn't make the cups shuffle randomly.
-- **Google Fonts**.
+## Built with
+- **HTML**
+- **CSS3**
+- **jQuery**
+- **jQuery UI**
+- **Google Fonts**
