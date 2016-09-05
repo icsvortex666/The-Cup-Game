@@ -8,7 +8,7 @@ Game coded by [*Amit Feldman*](https://www.twitter.com/amityofbodom) on August 3
 
 ## Game Instructions
 
-Find the ball in the cup.
+~~Find~~ err Guess the ball in the cup.
 Each time the ball has been found, the player is awarded with 10 points. The player can add an extra cup if he chooses to do so (as a matter of adding an extra layer of difficulty) and will be awarded 15 points, **once per additional cup**. If the player misses the right cup, all the awarded points will be removed.
 
 ```
