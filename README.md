@@ -1,7 +1,7 @@
 # [*The Cup Game*](http://icsvortex666.github.io/The-Cup-Game/)
 
 <p align="center">
-  <img src="icsvortex666.github.io/The-Cup-Game/assets/img/screenshot.png"/>
+  <img src="http://icsvortex666.github.io/The-Cup-Game/assets/img/screenshot.png"/>
 </p>
 
 Game coded by [*Amit Feldman*](https://www.twitter.com/amityofbodom) on August 30th, 2016.
